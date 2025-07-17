@@ -7,7 +7,6 @@
 ![License](https://img.shields.io/github/license/TelemetryHarbor/harbor-sdk-c-plus-plus.svg)
 
 <!-- GitHub -->
-![Build](https://github.com/TelemetryHarbor/harbor-sdk-c-plus-plus/actions/workflows/build.yml/badge.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/TelemetryHarbor/harbor-sdk-c-plus-plus.svg)
 ![Issues](https://img.shields.io/github/issues/TelemetryHarbor/harbor-sdk-c-plus-plus.svg)
 ![Pull Requests](https://img.shields.io/github/issues-pr/TelemetryHarbor/harbor-sdk-c-plus-plus.svg)
