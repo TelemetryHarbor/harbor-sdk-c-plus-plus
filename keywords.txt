@@ -1,0 +1,6 @@
+# TelemetryHarborSDK/keywords.txt
+
+HarborClient	KEYWORD1
+GeneralReading	TYPE
+send			KEYWORD2
+sendBatch		KEYWORD2
