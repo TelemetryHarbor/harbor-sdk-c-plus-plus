@@ -68,7 +68,8 @@ int HarborClient::_sendRequest(String &url, String &jsonPayload)
 
     while (retries <= _max_retries)
     {
-        WiFiClient client; // Use a new client for each attempt
+        WiFiClientSecure client;
+        client.setInsecure(); // Use a new client for each attempt
         HTTPClient http;
         http.begin(client, url);
         http.addHeader("Content-Type", "application/json");
