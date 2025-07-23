@@ -60,7 +60,7 @@ Here is a basic example of how to use the library to send a single sensor readin
 
 ```cpp
 #include <WiFi.h>
-#include <TelemetryHarborClient.h> // 1. Include the library
+#include <HarborClient.h> // 1. Include the library
 
 // --- WiFi & API Credentials ---
 const char* ssid = "YOUR_WIFI_SSID";
@@ -69,7 +69,7 @@ const char* harborEndpoint = "YOUR_API_ENDPOINT";
 const char* harborApiKey = "YOUR_API_KEY";
 
 // 2. Initialize the client globally
-TelemetryHarborClient harbor(harborEndpoint, harborApiKey);
+HarborClient harbor(harborEndpoint, harborApiKey);
 
 void setup() {
   Serial.begin(115200);
