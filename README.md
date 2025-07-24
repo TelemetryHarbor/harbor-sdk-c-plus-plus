@@ -22,6 +22,10 @@
 A C++ client SDK for sending telemetry data to the **Telemetry Harbor** service, designed for Arduino-based microcontrollers like the ESP32 and ESP8266.
 
 This library simplifies sending sensor data by handling HTTP communication, JSON serialization, and robust error handling with automatic retries.
+https://downloads.arduino.cc/libraries/logs/github.com/TelemetryHarbor/harbor-sdk-c-plus-plus/
+
+For Arduino Update Logs at [https://downloads.arduino.cc/libraries/logs/github.com/TelemetryHarbor/harbor-sdk-c-plus-plus/]([https://docs.telemetryharbor.com](https://downloads.arduino.cc/libraries/logs/github.com/TelemetryHarbor/harbor-sdk-c-plus-plus/)).
+
 
 For full details and advanced usage, please see our official documentation at [docs.telemetryharbor.com](https://docs.telemetryharbor.com).
 
