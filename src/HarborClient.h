@@ -7,15 +7,16 @@
 #include <ArduinoJson.h> // For JSON functionality
 
 #if defined(ESP8266)
-#include <ESP8266HTTPClient.h>
-#include <WiFiClientSecure.h>
+  #include <ESP8266WiFi.h>
+  #include <ESP8266HTTPClient.h>
+  #include <WiFiClientSecure.h>
 #elif defined(ESP32)
-#include <HTTPClient.h>
-#include <WiFi.h>
+  #include <WiFi.h>
+  #include <HTTPClient.h>
+  #include <WiFiClientSecure.h>
 #else
-#error "This library currently only supports ESP8266 and ESP32."
+  #error "TelemetryHarborSDK only supports ESP8266 and ESP32 platforms."
 #endif
-
 // Equivalent to your Pydantic 'GeneralReading' model
 struct GeneralReading
 {
