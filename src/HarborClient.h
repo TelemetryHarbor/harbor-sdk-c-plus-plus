@@ -8,7 +8,7 @@
 
 #if defined(ESP8266)
 #include <ESP8266HTTPClient.h>
-#include <WiFiClient.h>
+#include <WiFiClientSecure.h>
 #elif defined(ESP32)
 #include <HTTPClient.h>
 #include <WiFi.h>
